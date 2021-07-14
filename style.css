@@ -21,14 +21,19 @@ div.exercise-1 .col-6{
 div.exercise-1 .second-col{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     position: absolute;
     bottom:0;
+    left:0;
 }
 
 .col-2 p {
-    font-size: smaller;
+    font-size: 10px;
+    /* margin: 0 auto;
+    width: 100%; */
 }
+
+
 
 div.exercise-1 .col-4{
     display: flex;
@@ -47,6 +52,11 @@ div.exercise-1 .col-4{
 .card-body p.card-text{
     max-width:135px;
 
+}
+
+.column3row1, .column3row2, .column3row3{
+    display:flex;
+    align-items: center;
 }
 
  .column3row1{
